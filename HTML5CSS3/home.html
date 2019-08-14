@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<head>
+    <style>
+        /* * {
+            box-sizing: border-box;
+            } */
+      section {
+          padding-left: "100px"
+      }
+      
+     .header{
+          border-style:groove;
+          width:900px;
+      }  
+      img{
+        float:left;   
+        margin-top: -22px;
+        height: 120px; 
+      }  
+      .footer{
+        border-style:groove;
+        width:900px;
+        text-align: center;
+      }
+      aside{
+          width:20%;
+          float: left;
+          height: 300px; 
+          border-style: groove;
+      }
+      section{
+         border-style: groove;
+         width:900px;
+         height: 300px; 
+      }
+      article{
+        float: left;
+        padding: 20px;
+        width: 70%;
+        background-color: #f1f1f1;
+        height: 259px; 
+      }
+      .logout{margin-top: "-21px";float: right;}
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div>
+           <div><input type="submit" id="logout" value="Logout"  class="logout"/></div>
+           <p> <img src="..\HTML5CSS3\image\image1.jpg" alt="Hawk" width="200" />
+           <h1 style="padding-top: 39px">WebHawk</h1></p>
+          
+        </div>
+    </header>
+    <section>
+         <aside>
+            <ul style="list-style-type:none;">
+                <li><a href="#">TODO</a></li>
+                <li><a href="#">DatePicker</a></li>
+            </ul>
+        </aside>
+      
+        <article>
+                <h3>TODO</h3>
+                <div><input type="search" name="search" placeholder="Search"></div>
+                <div>
+                    <input type="text" name="add" placeholder="Add"/>
+                    <input type="submit" name="btnsubmit"/>
+                </div>
+            
+                <div>
+                    <ol>
+                        <li> Buy Phone <input type="checkbox" name="item1"/></li>
+                        <li> Get Bike <input type="checkbox" name="item2"/></li>
+                    </ol>
+                </div>
+        </article>
+    </section>
+<footer class="footer">
+     <p>&copy; WebHawk 2019</p>
+</footer>
+</body>
